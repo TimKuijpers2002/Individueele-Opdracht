@@ -1,0 +1,5 @@
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_Interfaces\bin\Debug\netcoreapp2.1\System_Interfaces.deps.json
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_Interfaces\bin\Debug\netcoreapp2.1\System_Interfaces.dll
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_Interfaces\obj\Debug\netcoreapp2.1\System_Interfaces.csprojAssemblyReference.cache
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_Interfaces\obj\Debug\netcoreapp2.1\System_Interfaces.AssemblyInfoInputs.cache
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_Interfaces\obj\Debug\netcoreapp2.1\System_Interfaces.AssemblyInfo.cs

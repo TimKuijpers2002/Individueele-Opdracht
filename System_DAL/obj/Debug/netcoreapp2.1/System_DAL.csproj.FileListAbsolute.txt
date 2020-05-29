@@ -1,0 +1,4 @@
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_DAL\bin\Debug\netcoreapp2.1\System_Interfaces.dll
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_DAL\obj\Debug\netcoreapp2.1\System_DAL.csprojAssemblyReference.cache
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_DAL\obj\Debug\netcoreapp2.1\System_DAL.AssemblyInfoInputs.cache
+C:\Users\TimKu\OneDrive\Bureaublad\Semester 2\DVCS\System_DAL\obj\Debug\netcoreapp2.1\System_DAL.AssemblyInfo.cs

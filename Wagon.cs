@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace CircusTrein
 {
-    class Wagon
+    public class Wagon
     {
         public List<Animal> Animals = new List<Animal>();
-        public int Space { get; private set; } = 10;
+        public int Space { get; private set; } = (int) Animal.Sizes.full;
 
-        private Animal.Sizes BiggestCarnivore()
+        public Animal.Sizes BiggestCarnivore(List<Animal> animals) 
         {
-            List<Animal> Carnivores = Animals.Where(Animal => Animal.isCarnivore).ToList();
+            List<Animal> Carnivores = animals.Where(Animal => Animal.isCarnivore).ToList();
 
             if(Carnivores.Count == 0)
             {
@@ -26,7 +26,7 @@ namespace CircusTrein
 
         public bool TryAddAnimal(Animal animal)
         {
-            if(animal.Size > BiggestCarnivore() && (int) animal.Size <= Space)
+            if(animal.Size > BiggestCarnivore(Animals) && (int) animal.Size <= Space)
             {
                 Animals.Add(animal);
                 Space -= (int)animal.Size;

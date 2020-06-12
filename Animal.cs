@@ -13,7 +13,8 @@ namespace CircusTrein
             small = 1,
             medium = 3,
             big = 5,
-            none = 0
+            none = 0,
+            full = 10
         }
 
         public Sizes Size;

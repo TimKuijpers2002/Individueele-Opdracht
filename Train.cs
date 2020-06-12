@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CircusTrein
 {
-    class Train
+    public class Train
     {
         public List<Wagon> Wagons = new List<Wagon>();
 
-        public Wagon AddAnimalToNewWagon(Animal animal)
+        Wagon AddAnimalToNewWagon(Animal animal)
         {
             Wagon NewWagon = new Wagon();
             NewWagon.TryAddAnimal(animal);
